@@ -43,7 +43,9 @@
             readOnly: false,
             highlightActiveLine: true,
             highlightGutterLine: false,
-            enableEmmet: true
+            enableEmmet: true,
+            tabSize: 4, 
+            useSoftTabs: true
         });
 
         $(widget).closest('.ace-overlay').data('editor', editor);
